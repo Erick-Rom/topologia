@@ -158,7 +158,37 @@ basicos de $\tau_O$ y por tanto $\tau_d \subset \tau_O$. Esto demuestra que, en 
 \textit{Verificar que el orden lexicografico genera un orden en $\mathbb{R}$.}
 
 \paragraph{14}
-\textit{Verificar las comparaciones entre $\tau_O$ y $\tau_{d\times \mathbb{R}}$ en $\mathbb{R}$}
+\textit{Verificar las comparaciones entre $\tau_o(\mathbb{R}^2)$ y $\tau_{d\times \mathbb{R}}$}
+
+Primero demostraremos que $\tau_o(\mathbb{R}^2)\subset \tau_{d\times \mathbb{R}}$
+
+Sea un $B=((a,b),(c,d))\in B_o$ y $x=(u,v)\in B$
+
+Caso trivial: si $a=c$ 
+
+$x=(a,v)$ donde $b<v<d$, entonces $x\in \{a\times (b,d)\}\in B_{d\times \mathbb{R}}\subset B$
+
+Caso 2: si $a\neq b$
+
+Caso 2.1: si 
+$x=(a,v)$, entonces $v\in(b,\infty)$ Sea $B'=\{a\}\times (b,\infty)\in B_{d\times \mathbb{R}}$
+entonces $x\in B'\subset B$
+
+Caso 2.2: $x=(c,v)$, entonces $v\in(-\infty,d)$ Sea $B'=\{c\}\times (-\infty,d)\in B_{d\times \mathbb{R}}$
+entonces $x\in B'\subset B$
+
+Caso 2.3: $x=(u,v)$, con $a<u<c$, entonces $v\in\mathbb{R}$ Sea $B'=\{u\}\times\mathbb{R}\in B_{d\times \mathbb{R}}$
+entonces $x\in B'\subset B$
+
+Por lo tanto $\tau_o(\mathbb{R}^2)\subset \tau_{d\times \mathbb{R}}$
+
+Ahora demostraremos que $\tau_o(\mathbb{R}^2)\supset  \tau_{d\times \mathbb{R}}$
+
+Sea $B=\{\{x\}\times(a,b)\}\in\tau_{d\times \mathbb{R}}$ tal que $(x,y)\in B$ esto es que $a<y<b$
+
+Sea $B'=((x,a),(x,b))\in B_o$ observemos que $(x,y)\in B'$ y ademas $B'\subset B$ 
+
+Por lo tanto $\tau_o(\mathbb{R}^2)=  \tau_{d\times \mathbb{R}}$
 
 \paragraph{15}
 \textit{Demuestre que $\overline{A \cap B} \subset \overline{A} \cap \overline{B}$.}
