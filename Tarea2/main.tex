@@ -2,6 +2,15 @@
 \usepackage[spanish]{babel}
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{geometry}
+ \geometry{
+ letterpaper,
+ total={170mm,237mm},
+ left=20mm,
+ top=15mm,
+ }
+\usepackage{setspace}
+\spacing{1.5}
 \setlength{\parindent}{0pt}
 %Falta agregar una portada bien hecha aparte.
 \LARGE{\title{Tareas de segundo parcial-Topología}}
@@ -44,15 +53,27 @@ Everardo Flores Rivera - 2127301}
 \paragraph{9}
 \textit{Verificar que si $A_{\alpha}\subset X_{\alpha}$, entonces $\prod\limits_{\alpha\in J } int(A_{\alpha}) = int(\prod\limits_{\alpha\in J }A_{\alpha})$ en la topologia por cajas.}
 
+El resultado es en general falso. Tomemos $\mathbb{R}^\omega$, $A_n=\left(-1/n,1/n\right)$. Es facil ver que $\prod \text{int}(A_n)-\prod A_n$, pero si $U=\prod_{i=1}^{m} U_{n_i} \times \prod_{n\neq n_i} \mathbb{R} \subset \prod A_n$,
+entonces $x_{n_i} \in U_{n_i} \cap A_{n_i}$ y $x_n=1$ si $n \neq n_i$, cumple que $(x_n) \in U$, pero $(x_n) \notin \prod A_n$.
 \paragraph{10}
 \textit{Verificar si las $\beta$-esima proyecciones son abiertas y/o cerradas en ambas topologias}
 
+Sea $U=\prod_{\alpha \in J} U_\alpha$ y note que $\pi_\beta(U)=U_\beta$, por lo que si $U$ es abierto en la top. por cajas o producto, en ambos casos $\pi_\beta(U)$ es abierto en $X_\beta$.
+Ademas, de la igualdad $\overline{U}=\prod_{\alpha \in J} \overline{U_\alpha}$, que se cumple en ambas topologias, se sigue que $\pi_\beta(U)=\overline{U_\beta}$ es cerrado, es decir, $\pi_\beta$ es un mapeo abierto y cerrado.
 \paragraph{11}
 \textit{Sea $f:X\rightarrow Y$ con la topologiamétrica en $X\times Y$. Demostrar que f es continua en X si y solo si $\forall\epsilon>0\hspace{5px}\exists\delta>0 : f(B_{d_x}(x,\delta))\subset B_{d_y}(f(x),\epsilon) \forall x\in X$}
 
 \paragraph{12}
 \textit{Demostrar que la métrica uniforme $\rho$ es métrica.}
 
+Por definición, $\rho((x_n),(y_n))=\sup{\{\overline{d}(x_n,y_n)\}}$, donde $\overline{d}(x,y) \leq 1$ para cada $x,y \in \mathbb{R}$, por lo que $\rho$ está bien definida.
+Es claro que $\rho((x_n),(x_n))=0$, además, $(x_n) \neq (y_n)$ implica que existe un natural $m$ con $\rho((x_n),(y_n))>=\overline{d}(x_m,y_m)>0$. Por tanto, $\rho((x_n),(y_n))=0$, si y sólo si $(x_n)=(y_n)$.
+La simetria se hereda de la metrica acotada, $\rho((x_n),(y_n))=\sup{\{\overline{d}(x_n,y_n)\}}=\sup{\{\overline{d}(y_n,x_n)\}}=\rho((y_n),(x_n))$. Finalmente, veamos la desigualdad triangular.
+\begin{align*}
+    \rho((x_n),(y_n)) &\leq \sup{\{\overline{d}(x_n,z_n)+\overline{d}(z_n,y_n)\}} \\
+                      &\leq \sup{\{\overline{d}(x_n,z_n)\}}+\sup{\{\overline{d}(z_n,y_n)\}}\\
+                      &=\rho((x_n),(z_n))+\rho((z_n),(y_n)).
+\end{align*}
 \paragraph{13}
 \textit{Sea $A=\{(x_n)_{n\in\mathbb{N}}\in\mathbb{R}^\omega : \exists N\in\mathbb{N}: x_n =0 ; n \geq N \}$
 Hallar $\overline{A}$ en top. uniforme}
@@ -65,4 +86,9 @@ Hallar $\overline{A}$ en top. uniforme}
 
 \paragraph{16}
 \textit{Sea $h:\mathbb{R}^\omega\rightarrow\mathbb{R}^\omega$ definida por: $h((x_n)_{n\in\mathbb{N}})=(a_n x_n +b_n)_{n\in\mathbb{N}}$. Ver si h es homeomorfismo en $\mathbb{R}^\omega$ bajo top. cajas}
+
+Si $a_m=0$ para algun $m \in \mathbb{N}$, dado $(x_n)$, definimos $(y_n)$ por $y_n=x_n$ si $n \neq m$, $y_m=x_m+1$. Es claro que $(x_n) \neq (y_n)$, pero $h((x_n))=h((y_n))$, por lo que h no es biyectiva y por tanto, no puede ser homeomorfismo.
+Supongamos entonces que $a_n \neq 0$ para cada $n \in \mathbb{N}$. Observe que $h^{-1}((x_n))=(\frac{x_n-b_n}{a_n})$ es la función inversa de $h$. Tanto $h$ como $h^{-1}$ son de la forma $f((x_n))=(c_n x_n+d_n)$, por lo que basta probar que esta función
+es continua en la topología por cajas. Sea $p_n((x_n))=c_nx+d_n$, es facil ver que es continua para cada $n \in \mathbb{N}$, y sea $U=\prod_{i=1}^{m} U_{n_i} \times \prod_{n\neq n_i} \mathbb{R}$ un abierto en $\mathbb{R}^\omega$,  $f^{-1}(U)=\cap_{i=1}^{m} p^{-1}_{n_i}(U_{n_i})$ es una
+intersección finita de abiertos, por lo que es abierta y $f$ es continua. Por tanto, $h$ es un homeomorfismo.
 \end{document}
