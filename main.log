@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.9)  23 MAY 2025 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.9)  3 MAR 2025 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/Tarea1/main.tex
-(c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/Tarea1/main.tex
+**c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/main.tex
+(c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -122,33 +122,9 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-) (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-))
-\Gm@cnth=\count285
-\Gm@cntv=\count286
-\c@Gm@tempcnt=\count287
-\Gm@bindingoffset=\dimen152
-\Gm@wd@mp=\dimen153
-\Gm@odd@mp=\dimen154
-\Gm@even@mp=\dimen155
-\Gm@layoutwidth=\dimen156
-\Gm@layoutheight=\dimen157
-\Gm@layouthoffset=\dimen158
-\Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks25
- (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
+\l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box54
 ) (main.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -156,71 +132,36 @@ LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: letterpaper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 73.69266pt)
-* v-part:(T,H,B)=(42.67912pt, 674.3303pt, 77.96056pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=483.69684pt
-* \textheight=674.3303pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-66.59087pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
-(C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+ (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 29--39
+Underfull \hbox (badness 10000) in paragraph at lines 20--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--54
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
 
  []
 
@@ -229,37 +170,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--54
 [1
 
 {C:/Users/tjona/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
 
 
 [2]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 99.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 90.
  (C:\Users\tjona\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--124
+Overfull \hbox (32.0291pt too wide) in paragraph at lines 92--94
+[]\OT1/cmr/m/n/12 Sean $\OML/cmm/m/it/12 B[] \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; B[] \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 c; d\OT1/cmr/m/n/12 ] \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 B[]$\OT1/cmr/m/n/12 , ob-ser-ve-mos que $\OML/cmm/m/it/12 B[] \OMS/cmsy/m/n/12 \ \OML/cmm/m/it/12 B[] \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 min\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 a; c\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ; max\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 b; d\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--124
+Underfull \hbox (badness 10000) in paragraph at lines 97--115
 
  []
 
 
 
 [3]
-Overfull \hbox (22.31812pt too wide) in paragraph at lines 125--136
-\OT1/cmr/m/n/12 tomamos $\OML/cmm/m/it/12 ^^N \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 min\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 c; d\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; c\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 b; d\OT1/cmr/m/n/12 ))\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 , en-ton-ces, La bo-la $(\OML/cmm/m/it/12 x; []\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^Z \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 )$x$(\OML/cmm/m/it/12 c; d\OT1/cmr/m/n/12 )$,
- []
-
-
 
 [4]
 
@@ -269,9 +210,7 @@ Overfull \hbox (22.31812pt too wide) in paragraph at lines 125--136
 
 [7]
 
-[8]
-
-[9] (main.aux
+[8] (main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -279,23 +218,19 @@ LaTeX Info: Redefining \% on input line 8.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 13 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 3860 strings out of 473530
- 60869 string characters out of 5714795
- 476967 words of memory out of 5000000
- 27076 multiletter control sequences out of 15000+600000
+ 3210 strings out of 473530
+ 50256 string characters out of 5714795
+ 457055 words of memory out of 5000000
+ 26446 multiletter control sequences out of 15000+600000
  567034 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,518b,1033s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,10n,65p,511b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 190772 bytes).
+Output written on main.pdf (8 pages, 188221 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1748022988.93342 "c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/Tarea1/main.tex" "main.pdf" "main" 1748022989.52771 0
-  "C:/Users/tjona/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748022898 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1741057482.30333 "c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/main.tex" "main.pdf" "main" 1741057482.87565 0
+  "C:/Users/tjona/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739164273 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/tjona/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739162453 12017794 4643b238816b944d84a5d98924ebe747 ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -39,8 +39,6 @@
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-es.ini" 1738512967 4345 33a8cc6f0a7c6afcb84895b2c963a4e5 ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-spanish.tex" 1738512967 336 a1c472f674f6f0c25a2c95ad8c7ad024 ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/generic/babel/txtbabel.def" 1738512962 6945 a248d839b1f26b388440c973966647b5 ""
-  "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1734114575 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
-  "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1734114575 1057 525c2192b5febbd8c1f662c9468335bb ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty" 1358197772 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty" 1358197772 13829 94730e64147574077f8ecfea9bb69af4 ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd" 1358197772 961 6518c6525a34feb5e8250ffa91731cff ""
@@ -55,14 +53,10 @@
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1738160243 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/base/omscmr.fd" 1738160243 2469 c75f72b1dc17277decdd842fa4a321a8 ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo" 1738160243 8449 ffe4ba2166a344827c3a832d1d5e0a91 ""
-  "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
-  "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
-  "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1730544106 2671 70891d50dac933918b827d326687c6e8 ""
   "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
-  "C:/Users/tjona/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-  "c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/Tarea1/main.tex" 1748022987 18846 3a2100c831eac101d13fb13e33a78a08 ""
-  "main.aux" 1748022989 2148 1cf3d2185e605a20b770626254974a19 "pdflatex"
-  "main.tex" 1748022987 18846 3a2100c831eac101d13fb13e33a78a08 ""
+  "c:/Users/tjona/Desktop/UANL/LM/7mo/Topologia/topologia_1/main.tex" 1741057480 17582 acb5d037d12815b8407c92f05d460eff ""
+  "main.aux" 1741057482 2148 44405b9d27513ba517d5e2556218d0ba "pdflatex"
+  "main.tex" 1741057480 17582 acb5d037d12815b8407c92f05d460eff ""
   (generated)
   "main.aux"
   "main.log"

@@ -43,6 +43,7 @@ Everardo Flores Rivera - 2127301}
 
 \paragraph{6}
 \textit{Demostrar que si $f(\overline{A})=\overline{f(A)}$ para cada $A\subset X$ entonces f es un homeomorfismo}
+
 Supongamos que \( f : X \to Y \) es una función tal que para todo subconjunto \( A \subset X \), se cumple que
 \[
 f(\overline{A}) = \overline{f(A)}.
@@ -85,10 +86,19 @@ Como \( f \) es continua, biyectiva y su inversa también es continua. Por lo ta
 
 
 \paragraph{7}
-\textit{Demostrar que $X\times Y \approx Y \times X$, extenderlo a caso finito utilizando cualquier permutación.}
- 
+\textit{Demostrar que $X\times Y \sim Y \times X$, extenderlo a caso finito utilizando cualquier permutación.}
+
+Sea $f: X \times Y \to Y \times X$ definida por $f(x,y)=(y,x)$. Es claro que $f$ es biyectiva, veamos que es un homeomorfismo. Sea $A=V \times U$ un basico de $Y \times X$, 
+tenemo que $f^{-1}(V \times U)=U \times V$ es abierto en $X \times Y$. Con un argumento similar obtenemos que $f^{-1}$ es continua, por tanto $f$ es un homeomorfismo.
+
+Ahora demostraremos que si $\sigma \in S_n$ es una permutación, entonces $\prod_{k=1}^{n} X_k \sim \prod_{k=1}^{n} X_{\sigma(k)}$.
+Recordemos que toda permutación se puede escribir como una composición de transposiciones de la forma $\pi(k)=k$ si $k<i$ o $k>i+1$ y $\pi(i)=i+1$, $\pi(i+1)=i$. Por lo primero demostrado,
+y del hecho que la relación de homeomorfismo es de equivalencia, tenemos que $\sigma=\pi_1 \circ ...\circ \pi_m$, $$\prod_{k=1}^{n} X_k \sim \prod_{k=1}^{n} X_{\pi_1(k)} \sim \prod_{k=1}^{n} X_{(\pi_1 \circ \pi_2)(k)} \sim ... \sim \prod_{k=1}^{n} X_{\sigma(k)}$$
+
 \paragraph{8}
-\textit{Demostrar que $\tau = \{\prod\limits_{\alpha\in J}U_\alpha : U_\alpha\in\tau_\alpha\}$ es una topologia para el producto y se le conoce como la topolofia por cajas}
+\textit{Demostrar que $\mathcal{B} = \{\prod\limits_{\alpha\in J}U_\alpha : U_\alpha\in\tau_\alpha\}$ es una base para la topología del producto y se le conoce como la topología por cajas.}
+
+Sean $A=\prod_{\alpha \in J}U_\alpha, B=\prod_{\alpha \in J} V_\alpha$. Como $A \cap B=\prod_{\alpha \in J} U_\alpha \cap V_\alpha = C \in \mathcal{B}$, entonces $\mathcal{B}$ es base.
 
 \paragraph{9}
 \textit{Verificar que si $A_{\alpha}\subset X_{\alpha}$, entonces $\prod\limits_{\alpha\in J } int(A_{\alpha}) = int(\prod\limits_{\alpha\in J }A_{\alpha})$ en la topologia por cajas.}
@@ -101,7 +111,9 @@ entonces $x_{n_i} \in U_{n_i} \cap A_{n_i}$ y $x_n=1$ si $n \neq n_i$, cumple qu
 Sea $U=\prod_{\alpha \in J} U_\alpha$ y note que $\pi_\beta(U)=U_\beta$, por lo que si $U$ es abierto en la top. por cajas o producto, en ambos casos $\pi_\beta(U)$ es abierto en $X_\beta$.
 Ademas, de la igualdad $\overline{U}=\prod_{\alpha \in J} \overline{U_\alpha}$, que se cumple en ambas topologias, se sigue que $\pi_\beta(U)=\overline{U_\beta}$ es cerrado, es decir, $\pi_\beta$ es un mapeo abierto y cerrado.
 \paragraph{11}
-\textit{Sea $f:X\rightarrow Y$ con la topologiamétrica en $X\times Y$. Demostrar que f es continua en X si y solo si $\forall\epsilon>0\hspace{5px}\exists\delta>0 : f(B_{d_x}(x,\delta))\subset B_{d_y}(f(x),\epsilon) \forall x\in X$}
+\textit{Sea $f:X \to Y$, $X,Y$ espacios metricos. Demostrar que f es continua en X si y solo si $\forall\epsilon>0\hspace{5px}\exists\delta>0 : f(B_{d_x}(x,\delta))\subset B_{d_y}(f(x),\epsilon) \forall x\in X$}
+
+Del teorema de equivalencia para continuidad, $f$ es continua si, y sólo si para cada basico $V=B_{d_Y}(f(x),\epsilon)$ existe un basico $U=B_{d_X}(x,\delta)$ tal que $f(U) \subset V$, esto es, $f(B_{d_X}(x,\delta)) \subset B_{d_Y}(f(x),\epsilon)$.
 
 \paragraph{12}
 \textit{Demostrar que la métrica uniforme $\rho$ es métrica.}
@@ -121,6 +133,9 @@ Hallar $\overline{A}$ en top. uniforme}
 \paragraph{14}
 \textit{Sea A del ejercicio anterior, hallar $\overline{A}$ en top. cajas}
 
+Veamos que $A=\overline{A}$. Sea $(x_n) \notin A$, luego existe una sucesión extrictamente creciente de naturales $(n_k)$ tal que $x_{n_k} \neq 0$ para cada $k \in \mathbb{N}$. Como $\mathbb{R}$ es $T_1$, existen vecindades abiertas $U_{n_k}$ de $x_{n_k}$ que no contienen al $0$.
+Tomemos $U=\prod_{k=1}^{\infty}U_{n_k} \times \prod_{n \neq n_k} \mathbb{R}$. Es facil ver que $(x_n) \in U$. Ahora sea $(y_n) \in A \cap U$, por definición existe $N$ tal que $n>N$ entonces $y_n=0$, pero al ser $n_k \to \infty$, para algun $k$ se cumple que
+$n_k>N$ y $y_{n_k} \in U_{n_k}$, contradiciendo el hecho que $0 \notin U_{n_k}$. Por tanto $A \cap U = \emptyset$ y $A=\overline{A}$.
 \paragraph{15}
 \textit{Demostrar que $f^{-1}(Fr_Y(B))\subset Fr_X(f^{-1}(B))$}
 
