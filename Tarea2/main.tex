@@ -115,6 +115,46 @@ Ademas, de la igualdad $\overline{U}=\prod_{\alpha \in J} \overline{U_\alpha}$, 
 
 Del teorema de equivalencia para continuidad, $f$ es continua si, y sólo si para cada basico $V=B_{d_Y}(f(x),\epsilon)$ existe un basico $U=B_{d_X}(x,\delta)$ tal que $f(U) \subset V$, esto es, $f(B_{d_X}(x,\delta)) \subset B_{d_Y}(f(x),\epsilon)$.
 
+\vspace{1em}
+Supongamos que \( f \) es continua
+Sea \( x \in X \) y \( \epsilon > 0 \). Entonces el conjunto \( B_{d_Y}(f(x), \epsilon) \subset Y \) es abierto.  
+Como \( f \) es continua, la preimagen \( f^{-1}(B_{d_Y}(f(x), \epsilon)) \subset X \) es abierta.  
+Además, \( x \in f^{-1}(B_{d_Y}(f(x), \epsilon)) \), ya que \( f(x) \in B_{d_Y}(f(x), \epsilon) \).
+
+Entonces, como \( f^{-1}(B_{d_Y}(f(x), \epsilon)) \) es un abierto que contiene a \( x \), por definición de la topología métrica, existe \( \delta > 0 \) tal que:
+\[
+B_{d_X}(x, \delta) \subset f^{-1}(B_{d_Y}(f(x), \epsilon)).
+\]
+Aplicando \( f \)
+\[
+f(B_{d_X}(x, \delta)) \subset B_{d_Y}(f(x), \epsilon).
+\]
+lo cual es a lo que queremos llegar
+
+\vspace{1em}
+Supongamos que:
+\[
+\forall x \in X,\ \forall \epsilon > 0,\ \exists \delta > 0 : f(B_{d_X}(x, \delta)) \subset B_{d_Y}(f(x), \epsilon).
+\]
+Queremos probar que \( f \) es continua.  
+Sea \( V \subset Y \) un abierto
+
+P.D. \( f^{-1}(V) \) es abierto en \( X \).  
+
+Sea \( x \in f^{-1}(V) \), entonces \( f(x) \in V \), y como \( V \) es abierto, existe \( \epsilon > 0 \) tal que:
+\[
+B_{d_Y}(f(x), \epsilon) \subset V.
+\]
+Por hipótesis, existe \( \delta > 0 \) tal que:
+\[
+f(B_{d_X}(x, \delta)) \subset B_{d_Y}(f(x), \epsilon) \subset V.
+\]
+Entonces:
+\[
+B_{d_X}(x, \delta) \subset f^{-1}(V).
+\]
+Por lo tanto, \( f^{-1}(V) \) es abierto, por lo que queda demostrado el ejercicio
+
 \paragraph{12}
 \textit{Demostrar que la métrica uniforme $\rho$ es métrica.}
 
