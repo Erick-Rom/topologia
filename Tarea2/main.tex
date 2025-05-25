@@ -71,6 +71,35 @@ Dado que la preimagen por \( h \) de cualquier conjunto abierto básico de \( Y 
 
 \paragraph{6}
 \textit{Demostrar que si $f(\overline{A})=\overline{f(A)}$ para cada $A\subset X$ y ademas es biyectiva entonces f es un homeomorfismo}
+Queremos probar que \( f \) es continua y que su inversa \( f^{-1} : Y \to X \) también lo es.
+
+P.D. \( f \) es continua.
+
+Sea \( F \subset X \) cerrado. Entonces \( \overline{F} = F \). Aplicamos la hipótesis:
+\[
+f(F) = f(\overline{F}) = \overline{f(F)}.
+\]
+Esto implica que \( f(F) \) es cerrado en \( Y \), pues es igual a su clausura.  
+Así, la imagen por \( f \) de cualquier cerrado en \( X \) es cerrado en \( Y \),  
+lo que implica que \( f \) es continua.
+
+P.D. \( f^{-1} \) es continua.
+
+Queremos mostrar que la preimagen por \( f^{-1} \) de cerrados en \( X \) es cerrada en \( Y \).  
+Sea \( B \subset Y \), entonces existe \( A \subset X \) tal que \( B = f(A) \) (ya que \( f \) es biyectiva).  
+Entonces:
+\[
+f(\overline{A}) = \overline{f(A)} = \overline{B}.
+\]
+Como \( f \) es biyectiva, aplicando \( f^{-1} \) obtenemos:
+\[
+\overline{A} = f^{-1}(\overline{B}) \Rightarrow f^{-1}(\overline{B}) = \overline{f^{-1}(B)}.
+\]
+Esto prueba que:
+\[
+f^{-1}(\overline{B}) = \overline{f^{-1}(B)} \quad \text{para todo } B \subset Y.
+\]
+Entonces \( f^{-1} \) es continua.
 
 \paragraph{7}
 \textit{Demostrar que $X\times Y \sim Y \times X$, extenderlo a caso finito utilizando cualquier permutación.}
