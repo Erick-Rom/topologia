@@ -25,7 +25,35 @@ Everardo Flores Rivera - 2127301}
 
 \paragraph{1}
 \textit{Sea $f,g:X\rightarrow$ Y funciones continuas y Y bajo la top. del orden. Sea $h(x)=\min{f(x),g(x)}$. Demostrar que h es continua en $X$}
-%Demostracion
+La topología del orden en \( Y \) tiene como base los conjuntos abiertos de la forma:
+\[
+(a, b),\quad (-\infty, b),\quad (a, \infty).
+\]
+Queremos probar que \( h \) es continua.  
+Sea \( a \in Y \), consideremos un abierto básico \( U = (a, \infty) \subset Y \).  
+Queremos ver que \( h^{-1}(U) \subset X \) es abierto.
+
+observamos que
+La función \( h(x) = \min\{f(x), g(x)\} \) puede reescribirse como:
+\[
+h(x) > a \iff \min\{f(x), g(x)\} > a \iff f(x) > a \text{ y } g(x) > a.
+\]
+Es decir:
+\[
+h^{-1}((a, \infty)) = f^{-1}((a, \infty)) \cap g^{-1}((a, \infty)).
+\]
+Como \( f \) y \( g \) son continuas y \( (a, \infty) \) es abierto en \( Y \), las preimágenes \( f^{-1}((a, \infty)) \) y \( g^{-1}((a, \infty)) \) son abiertas en \( X \).  
+La intersección de abiertos es abierta, por lo tanto:
+\[
+h^{-1}((a, \infty)) \text{ es abierto en } X.
+\]
+
+Un razonamiento análogo muestra que:
+\[
+h^{-1}((-\infty, b)) = f^{-1}((-\infty, b)) \cup g^{-1}((-\infty, b)),
+\]
+lo cual también es abierto, ya que la unión de abiertos es abierta, y para los casos  (a,b) se pueden omitir pues es una combinación de intersecciones y uniones de los casos anteriores    
+Dado que la preimagen por \( h \) de cualquier conjunto abierto básico de \( Y \) es abierta en \( X \), se concluye que \( h \) es continua.
 
 \paragraph{2}
 \textit{Sea $f:X\leftarrow Y$ una función abierta. Si $S \subset Y$ y $C$ cerrado en X tal que $f^{-1}(S)\subset C$, entonces existe K cerrado en Y tal que S$\subset$K y $f^{-1}(K)\subset C$}
