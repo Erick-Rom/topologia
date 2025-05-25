@@ -195,6 +195,40 @@ $n_k>N$ y $y_{n_k} \in U_{n_k}$, contradiciendo el hecho que $0 \notin U_{n_k}$.
 \paragraph{15}
 \textit{Demostrar que $f^{-1}(Fr_Y(B))\subset Fr_X(f^{-1}(B))$}
 
+La frontera se pueden escribir como:
+\[
+\mathrm{Fr}_Y(B) = \overline{B} \cap \overline{Y - B}
+\quad \text{y} \quad
+\mathrm{Fr}_X(f^{-1}(B)) = \overline{f^{-1}(B)} \cap \overline{X - f^{-1}(B)}
+\]
+Sea \( x \in f^{-1}(\mathrm{Fr}_Y(B)) \).  
+Entonces:
+\[
+f(x) \in \mathrm{Fr}_Y(B) = \overline{B} \cap \overline{Y - B}
+\Rightarrow
+f(x) \in \overline{B} \quad \text{y} \quad f(x) \in \overline{Y - B}
+\]
+Aplicando la propiedad de clasura:
+\[
+x \in f^{-1}(\overline{B}) \subset \overline{f^{-1}(B)}
+\quad \text{y} \quad
+x \in f^{-1}(\overline{Y - B}) \subset \overline{f^{-1}(Y - B)}
+\]
+Pero como:
+\[
+f^{-1}(Y - B) = X - f^{-1}(B)
+\Rightarrow
+\overline{f^{-1}(Y - B)} = \overline{X - f^{-1}(B)}
+\]
+Entonces:
+\[
+x \in \overline{f^{-1}(B)} \cap \overline{X - f^{-1}(B)} = \mathrm{Fr}_X(f^{-1}(B))
+\]
+Por lo tanto:
+\[
+f^{-1}(\mathrm{Fr}_Y(B)) \subset \mathrm{Fr}_X(f^{-1}(B))
+\]
+
 \paragraph{16}
 \textit{Sea $h:\mathbb{R}^\omega\rightarrow\mathbb{R}^\omega$ definida por: $h((x_n)_{n\in\mathbb{N}})=(a_n x_n +b_n)_{n\in\mathbb{N}}$. Ver si h es homeomorfismo en $\mathbb{R}^\omega$ bajo top. cajas}
 
