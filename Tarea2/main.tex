@@ -43,6 +43,46 @@ Everardo Flores Rivera - 2127301}
 
 \paragraph{6}
 \textit{Demostrar que si $f(\overline{A})=\overline{f(A)}$ para cada $A\subset X$ entonces f es un homeomorfismo}
+Supongamos que \( f : X \to Y \) es una función tal que para todo subconjunto \( A \subset X \), se cumple que
+\[
+f(\overline{A}) = \overline{f(A)}.
+\]
+
+P. D. \( f \) es continua: Sea \( C \subset Y \) cerrado. Consideramos \( A = f^{-1}(C) \subset X \). Por demostrar que \( A \) es cerrado
+Por hipótesis
+\[
+f(\overline{A}) = \overline{f(A)} = \overline{f(f^{-1}(C))} \subset \overline{C} = C.
+\]
+entonces,
+\[
+\overline{A} \subset f^{-1}(f(\overline{A})) \subset f^{-1}(C) = A.
+\]
+por lo tanto, \( A \) es cerrado y \( f \) es continua
+
+P.D. \( f \) es inyectiva: Supongamos que \( f(x_1) = f(x_2) \). Tomamos \( A = \{x_1\} \) y notamos que
+\[
+f(\overline{A}) = \overline{f(\{x_1\})} = \overline{\{f(x_1)\}} = \overline{\{f(x_2)\}} = \overline{f(\{x_2\})} = f(\overline{\{x_2\}}).
+\]
+Entonces \( \overline{\{x_1\}} \) y \( \overline{\{x_2\}} \) tienen la misma imagen bajo \( f \). Así que, \( f \) debe ser inyectiva.
+
+P.D. \( f \) es sobreyectiva 
+Sea \( y \in Y \). Supongamos que no existe \( x \in X \) tal que \( f(x) = y \). Entonces \( y \notin f(X) \), y por tanto \( y \notin \overline{f(A)} \) para ningún \( A \subset X \).  
+Pero si \( y \notin \overline{f(A)} \) para todo \( A \), entonces no existe \( A \subset X \) tal que \( y \in f(\overline{A}) \), pero esto contradice que la cerradura de \( A \) debe contener todos los puntos límite de las imágenes.  
+Por lo tanto, \( y \in f(X) \), y \( f \) es sobreyectiva.
+
+
+P.D: \( f^{-1} \) es continua: Como \( f \) es biyectiva, para todo \( B \subset Y \) existe \( A \subset X \) tal que \( B = f(A) \). Entonces:
+\[
+f(\overline{A}) = \overline{f(A)} = \overline{B}.
+\]
+Aplicando \( f^{-1} \),
+\[
+f^{-1}(\overline{B}) = f^{-1}(f(\overline{A})) = \overline{A} = \overline{f^{-1}(B)}.
+\]
+Así, \( f^{-1}(\overline{B}) = \overline{f^{-1}(B)} \), lo que implica que \( f^{-1} \) también es continua (por el mismo argumento del paso 1).
+
+Como \( f \) es continua, biyectiva y su inversa también es continua. Por lo tanto, \( f \) es un homeomorfismo. 
+
 
 \paragraph{7}
 \textit{Demostrar que $X\times Y \approx Y \times X$, extenderlo a caso finito utilizando cualquier permutación.}
