@@ -57,15 +57,32 @@ lo cual también es abierto, ya que la unión de abiertos es abierta, y para los
 Dado que la preimagen por \( h \) de cualquier conjunto abierto básico de \( Y \) es abierta en \( X \), se concluye que \( h \) es continua.
 
 \paragraph{2}
-\textit{Sea $f:X\leftarrow Y$ una función abierta. Si $S \subset Y$ y $C$ cerrado en X tal que $f^{-1}(S)\subset C$, entonces existe K cerrado en Y tal que S$\subset$K y $f^{-1}(K)\subset C$}
-%Demostracion
+\textit{Sea $f:X\rightarrow Y$ una función abierta. Si $S \subset Y$ y $C$ cerrado en X tal que $f^{-1}(S)\subset C$, entonces existe K cerrado en Y tal que S$\subset$K y $f^{-1}(K)\subset C$}
+El conjunto que buscamos es $K=\overline{S}$. Esto pues:
+\begin{equation}
+    f^{-1}(S) \subset f^{-1}(\overline{S}) \subset \overline{f^{-1}(S)} \subset f^{-1}(C)
+\end{equation}
+Solo falta mostrar que $f^{-1}(\overline{S}) \subset \overline{f^{-1}(S)}$
+Demostraremos que si $f(x) \in \overline{S} \Rightarrow x \in \overline{f^{-1}(S)}$. Para ello sea $V_{x}$ un entorno de x, entonces $f(V_{x})$ es un entorno de $f(x)$
+que interseca a $S$ (pues $f(x) \in \overline{S}$) en un punto $y^{*} = f(y), y \in V_{x}, y \in S$, así, ahora como el entorno de $x$ era arbitrario, $x \in \overline{f^{-1}(S)}$ y acabamos la prueba.
+
 
 \paragraph{3}
-\textit{Caso 1 y Caso 2 de ejemplo clase del 12/03/23} 
-
+\textit{Caso 2 de ejemplo clase del 12/03/2025} 
+Considere $(c,d) \cap [a, b] = (c,b]$, entonces queremos ver que $h^{-1}[(c,b]]$ es abierto, pero de hecho:
+\begin{equation}
+    h^{-1}[(c,b]] = (\frac{c-a}{b-a}, 1] \\
+    = [0,1] \cap (\frac{c-a}{b-a}, 2)
+\end{equation}
+El cual es de hecho un abierto en la topología del subespacio, que era lo que queríamos demostrar.
 
 \paragraph{4}
 \textit{Ver que $h^{-1}=g$ es continua en [a,b]}
+
+Note que $g$ queda definida como $g(x) = \frac{x-a}{b-a}$ e igual manera tomaremos la topología del subespacio, así que tome $(c,d)$ básico de la topolgía euclidiana y $(c,d) \cap [0,1]$ básico de la topologia del subespacio.
+Ahora, queremos ver que $h[(c,d) \cap [0,1]]$ es de hecho abierto. Si $(c,d) \cap [0,1] = (c,1] \Rightarrow h[(c,1]] = (a+(b-a)c, b] = [a,b] \cap (a+(b-a)c, b +1)$ abierto bajo la topología del subespacio.
+Por otro lado, si $(c,d) \cap [0,1] = [a,d) \Rightarrow h[[a,d)] = [a, a +(b-a)d) = [a,b] \cap (a-1, a +(b-a)d)$ abierto bajo la topología del subespacio.
+Así, $g = h^{-1}$ es continua (y $h$ un homeomorfismo).
 
 \paragraph{5}
 \textit{Demostrar que la relación entre esp. top. $X\sim Y$ es de equivalencia}
@@ -176,6 +193,14 @@ La simetria se hereda de la metrica acotada, $\rho((x_n),(y_n))=\sup{\{\overline
 \paragraph{13}
 \textit{Sea $A=\{(x_n)_{n\in\mathbb{N}}\in\mathbb{R}^\omega : \exists N\in\mathbb{N}: x_n =0 ; n \geq N \}$
 Hallar $\overline{A}$ en top. uniforme}
+
+Sea $X$ el conjunto de todas las sucesiones en $\mathbb{R}$ que convergen a 0, mostraremos que este conjunto es la cerradura de $A$.
+Para ello primero mostraremos que $X$ es de hecho cerrado con la topología uniforme, sea $y \notin X$, esto es, para todo $\epsilon >0$ existe una sub sucesión de componentes de y tal que $\forall k > N \in \mathbb{Z^{+}}, |y_{n_{k}}| \geq \epsilon$ 
+Sea $z \in B_{\overline{\rho}}(y, \frac{\epsilon}{2})$, entonces $z$ es tal que $|z_{n_{k}}| > |y_{n_{k}}| - \frac{\epsilon}{2} \geq \frac{\epsilon}{2}$, es decir, $B_{\overline{\rho}}(y, \frac{\epsilon}{2})$ no interseca a X. Así entonces:
+\begin{equation}
+    A \subset \overline{A} \subset \overline{X} = X
+\end{equation}
+Ahora, para todo $x \in X$ y $\epsilon >0$, existe un $N \in \mathbb{Z^{+}}$ tal que $|x_{n}| < \frac{\epsilon}{2}$, así de hecho $y = (y_{1}, ..., y_{N}, 0, 0, ...) \in B(x, \epsilon) \cap A$, siendo así $X = \overline{A}$ 
 
 \paragraph{14}
 \textit{Sea A del ejercicio anterior, hallar $\overline{A}$ en top. cajas}
