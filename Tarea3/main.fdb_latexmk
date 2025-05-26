@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1748235027.86009 "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" "main.pdf" "main" 1748235028.74856 0
+["pdflatex"] 1748243158.5173 "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" "main.pdf" "main" 1748243159.45631 0
   "C:/Users/erick/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748067339 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/erick/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738120035 12013434 407230180872ee63b206be3743ca89b0 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -63,9 +63,9 @@
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1730544106 2671 70891d50dac933918b827d326687c6e8 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-  "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" 1748235027 8111 2e84be1f6467a508365f5a2c62064aa2 ""
-  "main.aux" 1748235028 1070 577f09f9144af6a0be05100fe759fc77 "pdflatex"
-  "main.tex" 1748235027 8111 2e84be1f6467a508365f5a2c62064aa2 ""
+  "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" 1748243157 11382 a85d37d6d1efa1de9d61a1f16fa29615 ""
+  "main.aux" 1748243159 1070 f1a188a9e993c56aa523c57cb11c5957 "pdflatex"
+  "main.tex" 1748243157 11382 a85d37d6d1efa1de9d61a1f16fa29615 ""
   (generated)
   "main.aux"
   "main.log"
