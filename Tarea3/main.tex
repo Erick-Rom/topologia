@@ -26,9 +26,12 @@ Everardo Flores Rivera - 2127301}
 \paragraph{1}
 \textit{Sea Y subespacio de X con U, V separación en Y. Entonces $\overline{U}\cap V=\emptyset$ y $U\cap\overline{V}=\emptyset$}
 
+Demostraremos que $\overline{U}\cap V=\emptyset$ suponiendo lo contrario, esto es que existe x tal que $x\in\overline U \cap V$, si $x\in U $ llegamos a una contradicción ya que $U\cap V=\emptyset$. Si $x\in U'$ entonces se cumple que para toda A vecindad de $x$, $(A-\{x\})\cap U\neq\emptyset$
+
 \paragraph{2}
 \textit{Sean X, Y esp. top. y $h:X\rightarrow Y$ un homeomorfismo. Demostrar que si C es componente de X, entonces h(C) es componente de Y}
 
+Sea $C_x$ una componente conexa de X, esto es hay un x tal que $C_x=\bigcup\{C\subset X|x\in C\};C$ conexo. Entonces  por continuidad se tiene lo siguiente $h(C_x)=h(\bigcup C)=\bigcup h(C)$, el cual es conexo por la invariante de la conexidad, ademas es el conjunto de todos los conexos que tienen a $h(x)$ por ser homeomorfismo.
 \paragraph{3}
 \textit{Sea $Y\subset X$ un subespacio de un esp. top. X. Y es compacto en X ssi toda cubierta abierta para Y por abiertos de X contiene una subcolección finita de abiertos en Y que lo cubren.}
 
@@ -40,8 +43,18 @@ $(\Leftarrow)$ Ahora $A=\{A_\alpha\}$ es una cubierta de de Y de abiertos en X y
 \paragraph{4}
 \textit{La compacidad es una invariante topologica bajo continuidad.}
 
+Sea $B=\{B_\alpha\}_{\alpha\in J}$ una cubierta de $f(X)$ por abiertos de Y, como f es continua entonces la colección $A=\{f^{-1}(B_\alpha)\}_{\alpha\in J}$ es una cubierta de X de abiertos en X. Por ser X compacto, $\{f^{-1}(B_\alpha)\}_{\alpha=1}^n$ es subcubierta finita de X. Entonces $\{B_\alpha\}_{\alpha=1}^n$ es subcubierta finita de $f(X)$.
+
 \paragraph{5}
-\textit{Sea $f:X\times Y$ compacto y $T_2$. f es continuaen X ssi el conjunto $G_f =\{(x,f(x)):x\in X\}$ es cerrado.}
+\textit{Sea $f:X\rightarrow Y$ ,con Y compacto y $T_2$. f es continua en X ssi el conjunto $G_f =\{(x,f(x)):x\in X\}$ es cerrado en $X\times Y$.}
+
+$(\Rightarrow)$
+
+Demostraremos que $A=(X\times Y) - G_f$ es abierto en $X\times Y$. Sea $(x_0 ,y_0)\in A$ esto es que $y_0\neq f(x_0)$, como Y es Hausdörff, existen abiertos disjuntos U,V tales que $f(x_0)\in U$ y $y_0\in V$. Como f es continua $W=f^{-1}(U)\times V$ es vecindad de $(x_0,y_0)$. Veamos que no intersecta a $G_f$, su poniendo que hay un $(x,y)\in W \cap G_f$ entonces $y=f(x)$ por ser elemento de $G_f$ y se sigue que $f(x)=y\in U \land y\in V$ lo cual es una contradicción ya que U,V son disjuntos. Por tanto, $(x_0,y_0)\in f^{-1}(U)\times V\subset A$, entonces A es abierto por caracterización de abiertos.
+
+$(\Leftarrow)$
+
+Sea $x_0\in X$ y sea V una vecindad de $f(x_0)$. Entonces por hipotesis tenemos que, $K=G_f \cap (X\times (Y-V))$ es cerrado en $X\times Y$, ahora como Y es compacto, la proyección en X como $\pi_1(K)$ es cerrada en X por teorema. Sea $U=X-\pi_1(K)$, veremos que U es vecindad de $x_0$ tal que $f(U)\subset V$. Primero $x_0\in U$ ya que $f(x_0)\notin Y-V$. Sea $x\in U$ y supongamos que $f(x)\notin V$. Entonces $(x,f(x))\in K$, entonces $\pi_1(x,f(x))=x\in \pi(K)$, contradiciendo que $x\in U$. Por lo tanto se cumple la afirmación y f es continua.
 
 \paragraph{6}
 \textit{Hallar un espacio 1-num pero no 2-num.}
@@ -60,7 +73,22 @@ Sea X un es espacio 2-num y A subespacio de X. Entonces existe una base numerabl
 \paragraph{10}
 \textit{Sea $(X,\tau_X)$ un  espacio top. $T_1$. Demostrar que X es normal ssi para cada $A\subset X$ cerrado y U abierto en X tal que $A\subset U$, existe V abierto en X tal que $A\subset\overline{V}\subset U$}
 
+$(\Rightarrow ) X$ es normal 
+
+Sea $A\subset X$ cerrado en $X$ y $U$ vecindad abierta de $X$ tal que $A\subset U$. Entonces $X-U$ es cerrado (complemento de un abierto) y S.P.G. supongamos que es no vacío, entonces $\nexists a\in A$ y $a\in X-U$. Como $X$ es normal, entonces existen $V,W$ abiertos tales que $A \subset V$ y $X-U\subset W$. Supongamos que $\overline{V}\not \subset U$, entonces $\exists y \in \overline{V}\cap(X-U)$. Como $y\in X-U \rightarrow y\in W$, pero como es normal, entonces $W \cap V=\emptyset$, entonces $y\notin \overline{V}$, lo cual es una contradicción
+\\ $\therefore \overline{V}\subset W$
+\\ $\therefore$ Si $X$ es normal, entonces para cada cerrado $A$ tal que $A \subset U$ con $U$ abierto de $X$, existe abierto $W$ tal que $A \subset \overline{V} \subset U$
+\\$(\Leftarrow) X$ es $T_1$ y para cada cerrado $A$ tal que $A \subset U$ con $U$ abierto de $X$, existe abierto $W$ tal que $A \subset \overline{V} \subset U$
+\\Sean $A\subset X$ y $C \subset X$ cerrados en X tales que $A \cap C =\emptyset$. Tenemos que $X-C$ es abierto en $X$, entonces existe $V$ abierto de $X$ tal que $A\subset \overline{V} \subset X-C$, además $X-\overline{V}$ es abierto en $X$. Entonces $A \subset V$ y $C \subset X-\overline{V}$, donde $V\cap(X-\overline{V})=\emptyset$
+\\$\therefore$ existen abiertos disjuntos $V, (X-\overline{V})$ que contienen respectivamente a los cerrados A y C
+\\$\therefore$ X es normal
+
 \paragraph{11}
 \textit{Si X es $T_2$ y compacto, entonces X es normal.}
 
+Primero demostraremos que si $(X, \tau)$ es Hausdörff y $C$ es un compacto $C\subset X$ donde $x \in X$ pero $x \notin C$, entonces existen $U$ y $V$, abiertos disjuntos tales que $x \in U$ y $C \subset V$
+\\ Sea $x\in U_{y} $ con $U_y$ abierto de $X$. Como $(X, \tau)$ es Hausdörff, entonces $\forall y \in C$ $\exists V_{y}$ tal que $y \in V_{y}$ y $U_y \cap V_{y}=\emptyset$. Entonces $\cup_{y\in C}V_{y}$ es una cubierta abierta de $C$, y como $C$ es compacto, entonces existe una subcubierta numerable, digamos $V_{y_{1}},V_{y_2},...,V_{y_n}$.
+\\Sea $U=\bigcap_{j=1}^nU_{y_j}$ y $ V=\bigcup_{j=1}^nV_{y_j}$
+\\Entonces  $x\in U$ y $C\subset V$. Para ver que en efecto $U$ y $V$ son disjuntos supongamos que no lo son, entonces $\exists w \in U\cap V$, entonces $w \in V_{y_j}$ para algún j y $w\in U_{y_i} \forall i\in [1,n] $, pero por Houdrörff y cómo se seleccionaron los abiertos: $U_j\cap V_j=\emptyset$, por lo que es una contradicción. Así que $U\cap V=\emptyset$
+\\Con esto ya podemos probar lo que se indica en el inciso. Tomemos $C_1$ y $C_2$ cerrados de $X$ donde $(X, \tau )$ es compacto y cerrado. Por teorema, obtenemos que $C_1,C_2$ son compactos al ser cerrados dentro de un compacto. Sea $x\in C_1$ pero $x\notin C_2$, entonces por lo que acabamos de probar antes, $\exists U_x \wedge V_x$ tales que $x \in U_x$ y $C_2 \subset V_x$ donde $U_x \cap V_x=\emptyset$. Pero $C_1$ también es compacto, así que existe una subcubierta finita tal que $C_1 \subset \bigcap_{j=1}^nU_{x_j}=U$ y sea $V= \bigcup_{j=1}^nV_{x_j}$ entonces $C_2 \subset V$ y $C_1\subset U$, con $U \cap V=\emptyset$
 \end{document}

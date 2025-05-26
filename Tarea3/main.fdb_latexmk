@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1748126099.38895 "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" "main.pdf" "main" 1748126100.43948 0
+["pdflatex"] 1748235027.86009 "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" "main.pdf" "main" 1748235028.74856 0
   "C:/Users/erick/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748067339 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/erick/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738120035 12013434 407230180872ee63b206be3743ca89b0 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -24,6 +24,7 @@
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
+  "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
@@ -32,8 +33,11 @@
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb" 1335366146 21098 d4aee7c0aac232caac5688b586b9363c ""
+  "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
+  "C:/Users/erick/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1735755817 143199 6628c2c818feff6774c63ae8a4d8738d ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-es.ini" 1735755818 4345 33a8cc6f0a7c6afcb84895b2c963a4e5 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-spanish.tex" 1735755818 336 a1c472f674f6f0c25a2c95ad8c7ad024 ""
@@ -59,9 +63,9 @@
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1730544106 2671 70891d50dac933918b827d326687c6e8 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/erick/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-  "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" 1748126098 2828 476128202da575a495599abee9aad059 ""
-  "main.aux" 1748126100 1070 75dbd8490d98c39f837df912ea5bdfe8 "pdflatex"
-  "main.tex" 1748126098 2828 476128202da575a495599abee9aad059 ""
+  "c:/Users/erick/OneDrive/Escritorio/topo/Topo_1/topologia_1/Tarea3/main.tex" 1748235027 8111 2e84be1f6467a508365f5a2c62064aa2 ""
+  "main.aux" 1748235028 1070 577f09f9144af6a0be05100fe759fc77 "pdflatex"
+  "main.tex" 1748235027 8111 2e84be1f6467a508365f5a2c62064aa2 ""
   (generated)
   "main.aux"
   "main.log"
