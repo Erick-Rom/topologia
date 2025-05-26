@@ -58,18 +58,24 @@ Sea $x_0\in X$ y sea V una vecindad de $f(x_0)$. Entonces por hipotesis tenemos 
 
 \paragraph{6}
 \textit{Hallar un espacio 1-num pero no 2-num.}
-
-Topología uniforme R omega
+\\Tomemos $(\mathbb{R}^w,\tau_{uniforme})$, que como sabemos, es metrizable, que por teorema esto implica que es 1-numerable.
+\\Consideremos $S=\{ (x_n)_{n\in \mathbb{N}}|x_n=0\lor x_n=1 \}$ y tomemos $x,y\in A$ donde $x\not =y$. Entonces $\overline{\rho}(x,y)=1$, por lo que para todo punto de A tiene una distancia de 1 hacía cualquiera que sea distinto a sí mismo, y 0 para cualquier otro, es decir, A sería discreto. Pero a su vez, las sucesiones binarias son un conjunto no numerable, por lo que tenemos un conjunto discreto y no numerable, entonces no existe una base numerable que pueda generar todos los elemento.
+\\$\therefore (\mathbb{R}^w,\tau_{uniforme})$ es 1-numerable pero no 2-numerable
 \paragraph{7}
 \textit{Un subespacio de un espacio 2-num es 2-num. Hallar un contraejemplo del teorema de Lindelof.}
 
 Sea X un es espacio 2-num y A subespacio de X. Entonces existe una base numerable $\mathfrak{B}$, entonces $\{B\cap A | B\in\mathfrak{B}\}$ es una base numerable para el subespacio A.
 \paragraph{8}
 \textit{El producto finito de Lindelof no es Lindelof}
-
+\\Sabemos que $\mathbb{R}_l$ es Lindelöf. Tomemos el producto $\mathbb{R}_l$x$\mathbb{R}_l$
+\\Sea $D=\{(-x,x)|x\in \mathbb{R}\}$, el cual es un cerrado, por lo que $(\mathbb{R}_l$x$\mathbb{R}_l) -L$ es abierto. Entonces, $\{(\mathbb{R}_l$x$\mathbb{R}_l) -L\}\cup\{ [a,b)$x$[a,d)|a,b,d\in \mathbb{R}\}$, donde uno es el complemente de D y el otro conjunto cubre a D punto por punto, en una recta de reales, es decir, es una cantidad no numberable de elementos que se cubren de manera discreta, por lo que no hay una subcubierta numerable para esta. 
+\\$\therefore$ existe un producto finitio de espacios Lindelöf que no es Lindelöf, así que el producto finito de Lindelöf no es Lindelöf
 \paragraph{9}
 \textit{Hallar un $T_3$ que no es $T_4$}
-
+\\Tomemos el caso anterior, es decir $\mathbb{R}_l$x$\mathbb{R}_l$ el cual es regular y consideremos $D=\{(-x,x)|x\in \mathbb{R}\}$. También tomemos $A \subset D$ entonces $A$ es cerrado (porque es regular, entonces es $T_1$. Y L-A es también cerrado. 
+\\Supongamos que $\mathbb{R}_l$x$\mathbb{R}_l$ es normal. Entonces existen $U_A, V_A$ abiertos disjuntos tales que $A \subset U_A$ y $L-A \subset V_A$. Y consideremos el conjunto $B=\{ (x,y)|x,y\in \mathbb{Q}\}$, el cual es denso es en el conjunto, pues se trata del producto cruz de racionales dentro del producto cruz de reales. Ahora tomamos $f: P(D)\rightarrow P(B)$ donde P(D) se refiere a tomar un subconjunto de propio de D, y esta va de $A \rightarrow U_A\cap B$ y $D\rightarrow B$. Si tomamos $A,C \subset D$ donde $A\not =C$, entonces existe $x \in A$ tal que $x \notin C$, entonces $x\in D-C\subset V_C$ y $x\in U_A$, entonces $x \in U_A\cap V_C$ y por lo tanto, $x\notin U_C$, así que $B\cap U_A\not = B\cap U_B$, es decir, $f(A)\not =f(B)$
+\\Considerando también $h: P(B)\rightarrow D$, la cual es una función que va de un conjunto numerable (naturales), a uno no numerable, definiendola como $J\rightarrow 0.a_1a_2a_3...$ donde $a_i= o $ si $i\in J$ y $a_i=1$ de lo contrario,es decir volvemos a utilizar la función que manda de los naturales a binarios, la cual ya se estableció que es inyectiva. Por como definimos ambas funciones podemos componerlas para tener una composición $g:P(D)\rightarrow D$ la cual es inyectiva y es una contradicción, puesto que una función no puede ser inyectiva e ir de un subconjunto propio al conjunto total. DIcha contradicción viene de asumir que en efecto podemos hallar dos abiertos disjuntos que contengan a dos conjuntos cerrados, es decir, viene de asumir que se trata de un conjunto normal.
+\\$\therefore$ $\mathbb{R}_l$x$\mathbb{R}_l$ bajo la topología producto es regular pero no es normal.
 \paragraph{10}
 \textit{Sea $(X,\tau_X)$ un  espacio top. $T_1$. Demostrar que X es normal ssi para cada $A\subset X$ cerrado y U abierto en X tal que $A\subset U$, existe V abierto en X tal que $A\subset\overline{V}\subset U$}
 
